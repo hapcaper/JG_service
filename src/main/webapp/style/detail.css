@@ -1,0 +1,35 @@
+﻿.detail_content{
+    padding:10px;
+    border:1px solid #808080;
+    border-radius:10px;
+    background:#ffffff;
+}
+.detail_content .ul{
+    padding-left:30px;
+    height:30px;
+    line-height:30px;
+    background:#c3baba;
+    border-radius:10px;
+}
+.detail_content .ul .li{
+    padding:0 2px;
+    float:left;
+}
+.detail_content .ul .a{
+    color:#000;
+}
+.detail_content .ul .a:hover{
+    color:#716969;
+}
+.detail_content .span{
+    display:block;
+    height:40px;
+    line-height:40px;
+    color:#62b0ce;
+    font-size:20px;
+    border-bottom:1px dotted #000;
+}
+.detail_content .p{
+    padding:10px;
+    line-height:30px;
+}
