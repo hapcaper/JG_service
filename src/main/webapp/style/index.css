@@ -15,17 +15,6 @@ body { font-size:12px; font-family:"微软雅黑"; color:#000000;}
 .fl { float:left; }
 .fr { float:right; }
 
-
-.index_content_l_bottom ul{
-    top: -150px;
-    height: 160px;
-    position: relative;
-    left: 0;
-}
-.index_content_l_bottom ul p{
-    text-align: center;
-}
-
 /*主页样式*/
 .index{
     width:960px;
@@ -97,17 +86,17 @@ body { font-size:12px; font-family:"微软雅黑"; color:#000000;}
 .index_content_l_top{
     height:240px;
 }
-.index_content_l_top .dl{
+.index_content_l_top dl{
     height:240px;
     width:270px;
     position:relative;
 }
-.index_content_l_top .dl img{
+.index_content_l_top dl img{
     width:260px;
     height:210px;
     margin:10px 0 0 10px;
 }
-.index_content_l_top .dl .dd{
+.index_content_l_top dl dd{
     height:20px;
     width:270px;
     line-height:20px;
@@ -173,7 +162,7 @@ body { font-size:12px; font-family:"微软雅黑"; color:#000000;}
 .index_content_l_center ul{
     margin-top:4px;
 }
-.index_content_l_center ul .em{
+.index_content_l_center ul em{
     float:right;
 }
 .index_content_l_center ul a{

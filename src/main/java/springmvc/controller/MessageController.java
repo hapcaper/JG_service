@@ -1,7 +1,6 @@
 package springmvc.controller;
 
 import com.alibaba.fastjson.JSON;
-import jdk.nashorn.internal.parser.JSONParser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -52,7 +51,6 @@ public class MessageController {
         model.addAttribute("message",message);
         return "/center2_detail_1";
     }
-
     @RequestMapping(value = "toCenter")
     public String toCenter(Model model){
         return "/center";
@@ -67,6 +65,7 @@ public class MessageController {
     @RequestMapping(value = "toRegime")
     public String toRegime(Model model){
         List<Message> list = messageService.findBySort("规章制度");
+
         model.addAttribute("msg",list);
         return "/regime";
     }

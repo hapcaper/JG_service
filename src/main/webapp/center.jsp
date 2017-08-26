@@ -48,7 +48,7 @@
                 <dd><a href="#">中心介绍</a></dd>
             </dl>
             <font>中心介绍</font>
-            <h1 style="text-align: center">中心简介</h1>
+            <h1 style="text-align: center"></h1>
             <div>
                 <qowt-msdoc qowt-eid="qowt-msdoc" id="qowt-msdoc" contenteditable="true">
                     <qowt-page is-first-page-in-section="" style="width: 595.3pt; height: 841.9pt;" named-flow="FLOW-1">
