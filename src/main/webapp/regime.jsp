@@ -40,13 +40,13 @@
                 <li id="center_active"><a href="#">规章制度</a></li>
             </ul>
             <div class="fr center_content_div">
-                <dl>
-                    <dt>您现在的位置是:</dt>
-                    <dd><a href="regime.html">规章制度</a></dd>
+                <dl class="dl">
+                    <dt class="dt">您现在的位置是:</dt>
+                    <dd class="dd"><a class="a" href="regime.html">规章制度</a></dd>
                 </dl>
-                <font>规章制度</font>
+                <font class="font">规章制度</font>
                 
-                    <ol class="center_file">
+                    <ol class="center_file ">
                         <c:forEach items="${msg}" var="m">
                             <li><a href="toArticle.do?id=${m.id}">${m.title}</a> <small><a href="${m.fileUri}">原文件</a></small>
                             </li>

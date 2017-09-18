@@ -41,13 +41,13 @@
                 <li id="center_active"><a href="toCenter2.do">新闻公告</a></li>
             </ul>
             <div class="fr center_content_div">
-                <dl>
-                    <dt>您现在的位置是:</dt>
-                    <dd><a href="toCenter.do">中心情况</a></dd>
-                    <dd>|</dd>
-                    <dd><a href="toCenter2.do">新闻公告</a></dd>
+                <dl class="dl">
+                    <dt class="dt">您现在的位置是:</dt>
+                    <dd class="dd"><a href="toCenter.do">中心情况</a></dd>
+                    <dd class="dd">|</dd>
+                    <dd class="dd"><a href="toCenter2.do">新闻公告</a></dd>
                 </dl>
-                <font>新闻公告</font>
+                <font class="font">新闻公告</font>
                <ol class="center_file">
                    <c:forEach items="${msg}" var="m">
                        <li><a href="toArticle.do?id=${m.id}">${m.title}</a></li>

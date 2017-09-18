@@ -18,17 +18,17 @@
 <body>
 <div class="index">
     <div class="top">
-        <img src="images/top_bg.png" alt="会计实验中心"/>
+        <img class="img" src="images/top_bg.png" alt="会计实验中心"/>
     </div>
     <div class="nav">
-        <ul class="fl">
-            <li><a href="toIndex.do">网站首页</a></li>
-            <li id="index_active"><a href="toCenter.do">中心情况</a></li>
-            <li><a href="teacher.html">师资队伍</a></li>
-            <li><a href="toData.do">申报资料</a></li>
-            <li><a href="toExperiment.do">实验教学</a></li>
-            <li><a href="apparatus.html">仪器设备</a></li>
-            <li><a style="border-right:1px solid #FFFFFF;" href="toRegime.do">规章制度</a></li>
+        <ul class="fl ul">
+            <li class="li"><a class="a" href="toIndex.do">网站首页</a></li>
+            <li class="li" id="index_active"><a class="a" href="toCenter.do">中心情况</a></li>
+            <li class="li"><a class="a" href="teacher.html">师资队伍</a></li>
+            <li class="li"><a class="a" href="toData.do">申报资料</a></li>
+            <li class="li"><a class="a" href="toExperiment.do">实验教学</a></li>
+            <li class="li"><a class="a" href="apparatus.html">仪器设备</a></li>
+            <li class="li"><a class="a" style="border-right:1px solid #FFFFFF;" href="toRegime.do">规章制度</a></li>
         </ul>
         <form class="fr">
             <input class="text" type="text"/>
@@ -37,17 +37,17 @@
     </div>
     <div class="center_content clear">
         <ul class="fl">
-            <li id="center_active"><a href="toCenter.do">中心介绍</a></li>
-            <li><a href="toCenter2.do">新闻公告</a></li>
+            <li class="li"  id="center_active"><a class="a" href="toCenter.do">中心介绍</a></li>
+            <li class="li"><a class="a"  href="toCenter2.do">新闻公告</a></li>
         </ul>
         <div class="fr center_content_div">
-            <dl>
-                <dt>您现在的位置是:</dt>
-                <dd><a href="#">中心情况</a></dd>
-                <dd>|</dd>
-                <dd><a href="#">中心介绍</a></dd>
+            <dl class="dl">
+                <dt class="dt">您现在的位置是:</dt>
+                <dd class="dd"><a class="a" href="#">中心情况</a></dd>
+                <dd class="dd">|</dd>
+                <dd class="dd"><a class="a" href="#">中心介绍</a></dd>
             </dl>
-            <font>中心介绍</font>
+            <font class="font">中心介绍</font>
             <h1 style="text-align: center"></h1>
             <div>
                 <qowt-msdoc qowt-eid="qowt-msdoc" id="qowt-msdoc" contenteditable="true">
@@ -162,10 +162,10 @@
         </div>
     </div>
     <div class="footer">
-        <ul>
-            <li>地址：郑州市科学大道136号郑州轻工业学院经济与管理学院</li>
-            <li>邮编：450005</li>
-            <li>电话：0371-86609628</li>
+        <ul class="ul">
+            <li class="li">地址：郑州市科学大道136号郑州轻工业学院经济与管理学院</li>
+            <li class="li">邮编：450005</li>
+            <li class="li">电话：0371-86609628</li>
         </ul>
     </div>
 </div>

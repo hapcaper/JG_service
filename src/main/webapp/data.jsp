@@ -42,11 +42,11 @@
 
             </ul>
             <div class="fr center_content_div">
-                <dl>
-                    <dt>您现在的位置是:</dt>
-                    <dd><a href="#">申报资料</a></dd>
+                <dl class="dl">
+                    <dt class="dt">您现在的位置是:</dt>
+                    <dd class="dd"><a href="#">申报资料</a></dd>
                 </dl>
-                <font>申报资料</font>
+                <font class="font">申报资料</font>
                 <p>
                    <ol class="center_file">
                         <c:forEach items="${msg}" var="m">

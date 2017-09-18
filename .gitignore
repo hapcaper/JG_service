@@ -5,7 +5,5 @@
 # IntelliJ project files
 .idea
 *.iml
-out
-gen
 src/main/webapp/mp4/
 target/

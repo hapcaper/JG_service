@@ -42,13 +42,13 @@
                 <li><a href="toExperiment3.do">实验计划</a></li>
             </ul>
             <div class="fr center_content_div">
-                <dl>
-                    <dt>您现在的位置是:</dt>
-                    <dd><a href="#">实验教学</a></dd>
-                    <dd>|</dd>
-                    <dd><a href="#">实验大纲</a></dd>
+                <dl class="dl">
+                    <dt class="dt">您现在的位置是:</dt>
+                    <dd class="dd"><a href="#">实验教学</a></dd>
+                    <dd class="dd">|</dd>
+                    <dd class="dd"><a href="#">实验大纲</a></dd>
                 </dl>
-                <font>实验大纲</font>
+                <font class="font">实验大纲</font>
                 <ol class="center_file">
                     <c:forEach items="${msg}" var="m">
                         <li><a href="${m.fileUri}">${m.title}</a> </li>
