@@ -48,7 +48,7 @@
                 
                     <ol class="center_file ">
                         <c:forEach items="${msg}" var="m">
-                            <li><a href="toArticle.do?id=${m.id}">${m.title}</a> <small><a href="${m.fileUri}">原文件</a></small>
+                            <li><a href="toArticle.do?id=${m.id}">${m.title}</a>
                             </li>
                         </c:forEach>
 

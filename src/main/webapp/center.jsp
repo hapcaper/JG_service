@@ -50,7 +50,6 @@
             <font class="font">中心介绍</font>
             <h1 style="text-align: center"></h1>
             <div>
-                <qowt-msdoc qowt-eid="qowt-msdoc" id="qowt-msdoc" contenteditable="true">
                     <qowt-page is-first-page-in-section="" style="width: 595.3pt; height: 841.9pt;" named-flow="FLOW-1">
                         <qowt-section qowt-eid="E42" id="E42" named-flow="FLOW-2" style="column-count: 1;">
                             <table is="qowt-table" qowt-eid="E43" id="E43" class="qowt-stl-4" named-flow="FLOW-3"
@@ -157,7 +156,6 @@
                             <p is="qowt-word-para" qowt-lvl="undefined" qowt-entry="undefined" qowt-eid="E80" id="E80">
                                 <br></p></qowt-section>
                     </qowt-page>
-                </qowt-msdoc>
             </div>
         </div>
     </div>
