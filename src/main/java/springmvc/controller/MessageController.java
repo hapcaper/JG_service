@@ -41,6 +41,9 @@ public class MessageController {
     public String toIndex(Model model){
         List<Message> list = messageService.findBySort("中心新闻公告");
         List<Message> list1 = messageService.findBySort("规章制度");
+        List<Message> l3 = messageService.findBySort("sssss");
+        System.out.println(list.size()+"-------------");
+        System.out.println(l3.size()+"++++++++++++");
         model.addAttribute("msg",list);
         model.addAttribute("msg1",list1);
         return "/index";

@@ -38,11 +38,6 @@
         </div>
         <div class="detail_content">
             <ul class="ul">
-                <li class="li">您现在的位置是：</li>
-                <li class="li"><a href="toCenter.do">中心情况</a></li>
-                <li class="li">|</li>
-                <li class="li"><a href="toCenter2.do">新闻公告</a></li>
-                <li class="li">|</li>
                 <li class="li"><a href="#">文章名字</a></li>
             </ul>
             <br>
